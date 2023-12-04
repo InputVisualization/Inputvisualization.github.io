@@ -1,0 +1,798 @@
+{
+  "attributes": [
+    {
+      "key":  "id",
+      "title": "Name",
+      "parent": "",
+      "type": "textbox",
+      "filter": false,
+      "display": false
+    },
+    {
+      "key": "figures",
+      "title": "Figure",
+      "parent": "",
+      "type": "upload",
+      "filter": false,
+      "display": false
+    },
+    {
+      "key": "Purpose",
+      "title": "Purpose",
+      "parent": "Purpose",
+      "type": "multi_select",
+      "active": false,
+      "values": [
+        {
+          "title": "Individual<br/>Reflection",
+          "value": "Individual Reflection",
+          "checked": false
+        },
+        {
+          "title": "Public Group<br/>Reflection",
+          "value": "Public Group Reflection",
+          "checked": false
+        },
+        {
+          "title": "Public Activity<br/>Documentation",
+          "value": "Public Group Reflection",
+          "checked": false
+        },
+        {
+          "title": "Data<br/>Discussion",
+          "value": "Data Discussion",
+          "checked": false
+        },
+        {
+          "title": "Survey",
+          "value": "Survey",
+          "checked": false
+        },
+        {
+          "title": "Planning",
+          "value": "Planning",
+          "checked": false
+        },
+        {
+          "title": "Organizing",
+          "value": "Organizing",
+          "checked": false
+        }
+      ],
+      "filter": true,
+      "display": true
+    },
+    {
+      "key": "PhysVis",
+      "title": "Physicalization Or Visualization",
+      "parent": "Visual Representation",
+      "type": "multi_select",
+      "active": false,
+      "values": [
+        {
+          "title": "Physicalization",
+          "value": "Physicalization",
+          "checked": false
+        },
+        {
+          "title": "Visualization",
+          "value": "Visualization",
+          "checked": false
+        },
+        {
+          "title": "Paper based Physicalization",
+          "value": "Physicalization*",
+          "checked": false
+        }
+      ]
+    },
+    {
+      "key": "Idiom",
+      "title": "Idiom",
+      "parent": "Visual Representation",
+      "type": "multi_select",
+      "active": false,
+      "values": [
+        {
+          "title": "Bar<br/>Chart",
+          "value": "bar chart",
+          "checked": false
+        },
+        {
+          "title": "Matrix",
+          "value": "matrix",
+          "checked": false
+        },
+        {
+          "title": "Time<br/>line",
+          "value": "timeline",
+          "checked": false
+        },
+        {
+          "title": "Heat<br/>Map",
+          "value": "heat map",
+          "checked": false
+        },
+        {
+          "title": "Dot<br/>Plot",
+          "value": "dot plot",
+          "checked": false
+        },
+        {
+          "title": "Map",
+          "value": "map",
+          "checked": false
+        },
+        {
+          "title": "Scatter<br/>plot",
+          "value": "scatter plot",
+          "checked": false
+        },
+        {
+          "title": "Bubble<br/>Chart",
+          "value": "bubble chart",
+          "checked": false
+        }, 
+        {
+          "title": "Parallel<br/>Coordinates",
+          "value": "parallel coordinates",
+          "checked": false
+        },
+        {
+          "title": "Affinitv<br/>Diagram",
+          "value": "affinity diagram",
+          "checked": false
+        },  
+        {
+          "title": "Network<br/>Diagram",
+          "value": "network diagram",
+          "checked": false
+        },     
+        {
+          "title": "Custom",
+          "value": "custom idiom",
+          "checked": false
+        }
+      ],
+      "filter": true,
+      "display": true
+    },
+    {
+      "key": "Input Data Semantics",
+      "title": "Data Semantics",
+      "parent": "Data",
+      "type": "multi_select",
+      "active": false,
+      "values": [
+        {
+          "title": "Spatial",
+          "value": "Spatial",
+          "checked": false
+        },
+        {
+          "title": "Time",
+          "value": "time",
+          "checked": false
+        },
+        {
+          "title": "Survey",
+          "value": "survey",
+          "checked": false
+        },
+        {
+          "title": "Activity",
+          "value": "activity",
+          "checked": false
+        },
+        {
+          "title": "Sub. judgement",
+          "value": "subjective judgement",
+          "checked": false
+        },
+        {
+          "title": "Design Patterns",
+          "value": "design patterns",
+          "checked": false
+        },
+        {
+          "title": "Arguments.",
+          "value": "arguments",
+          "checked": false
+        },
+        {
+          "title": "Networks.",
+          "value": "networks",
+          "checked": false
+        },
+        {
+          "title": "Data about people",
+          "value": "data about people",
+          "checked": false
+        },
+        {
+          "title": "Children",
+          "value": "Children",
+          "checked": false
+        },
+        {
+          "title": "Family",
+          "value": "Family",
+          "checked": false
+        },
+        {
+          "title": "Other",
+          "value": "Other",
+          "checked": false
+        },
+        {
+          "title": "Unspec.",
+          "value": "Unspecified",
+          "checked": false
+        }
+      ],
+      "filter": true,
+      "display": true
+    },
+    {
+      "key": "Number of Dimensions",
+      "title": "N. Dimensions",
+      "parent": "Artifact",
+      "valueMatching" : "range",
+      "type": "range_slider",
+      "filter": true,
+      "display": true
+    },
+      {
+      "key": "Input Data Types",
+      "title": "Data Types",
+      "parent": "Data",
+      "type": "multi_select",
+      "active": false,
+      "values": [
+        {
+          "title": "Ordinal",
+          "value": "ordinal",
+          "checked": false
+        },
+        {
+          "title": "Categorical",
+          "value": "categorical",
+          "checked": false
+        },
+        {
+          "title": "Quantitative",
+          "value": "quantitative",
+          "checked": false
+        },
+        {
+          "title": "Text",
+          "value": "text",
+          "checked": false
+        }
+      ],
+      "filter": true,
+      "display": true
+    },
+    {
+      "key": "Technology/Material",
+      "title": "Tech. & Material",
+      "parent": "Artifact",
+      "type": "checkbox",
+      "active": false,
+      "values": [
+        {
+          "title": "Mobile Device",
+          "value": "Mobile Device",
+          "checked": false
+        },
+        {
+          "title": "Display",
+          "value": "Display",
+          "checked": false
+        },
+        {
+          "title": "String/Yarn",
+          "value": "String/Yarn",
+          "checked": false
+        },
+        {
+          "title": "Nails",
+          "value": "Nails",
+          "checked": false
+        },
+        {
+          "title": "Paper",
+          "value": "Paper",
+          "checked": false
+        },
+        {
+          "title": "Gum",
+          "value": "Gum",
+          "checked": false
+        },
+        {
+          "title": "Wool",
+          "value": "Wool",
+          "checked": false
+        },
+        {
+          "title": "Depends",
+          "value": "Depends",
+          "checked": false
+        },
+        {
+          "title": "Website",
+          "value": "Website",
+          "checked": false
+        },
+        {
+          "title": "Wood",
+          "value": "Wood",
+          "checked": false
+        },
+        {
+          "title": "Lego",
+          "value": "Lego",
+          "checked": false
+        },
+        {
+          "title": "Wall",
+          "value": "Wall",
+          "checked": false
+        },
+        {
+          "title": "Pen",
+          "value": "Pen",
+          "checked": false
+        },
+        {
+          "title": "Leather",
+          "value": "Leather",
+          "checked": false
+        },
+        {
+          "title": "Fabric",
+          "value": "Fabric",
+          "checked": false
+        },
+        {
+          "title": "Projector",
+          "value": "Projector",
+          "checked": false
+        },
+        {
+          "title": "Plastic",
+          "value": "Plastic",
+          "checked": false
+        },
+        {
+          "title": "Sand",
+          "value": "Sand",
+          "checked": false
+        },
+        {
+          "title": "Chalk",
+          "value": "Chalk",
+          "checked": false
+        },
+        {
+          "title": "Magnet",
+          "value": "Magnet",
+          "checked": false
+        },
+        {
+          "title": "Desktop Device",
+          "value": "Desktop Device",
+          "checked": false
+        },
+        {
+          "title": "Microcontroller",
+          "value": "Microcontroller",
+          "checked": false
+        },
+        {
+          "title": "Kinect",
+          "value": "Kinect",
+          "checked": false
+        },
+        {
+          "title": "TV",
+          "value": "TV",
+          "checked": false
+        },
+        {
+          "title": "Sticker",
+          "value": "Sticker",
+          "checked": false
+        },
+        {
+          "title": "Yarn",
+          "value": "Yarn",
+          "checked": false
+        },
+        {
+          "title": "wire",
+          "value": "wire",
+          "checked": false
+        },
+        {
+          "title": "Liquid",
+          "value": "Liquid",
+          "checked": false
+        },
+        {
+          "title": "PCB Display",
+          "value": "PCB Display",
+          "checked": false
+        },
+        {
+          "title": "Glas",
+          "value": "Glas",
+          "checked": false
+        },
+        {
+          "title": "Badges",
+          "value": "Badges",
+          "checked": false
+        },
+        {
+          "title": "E-paper display",
+          "value": "E-paper display",
+          "checked": false
+        }
+      ],
+      "filter": true,
+      "display": true
+    },
+    {
+      "key": "Authoring",
+      "title": "Authoring",
+      "parent": "Artifact",
+      "type": "multi_select",
+      "active": false,
+      "values": [
+        {
+          "title": "No",
+          "value": "No authoring",
+          "checked": false
+        },
+        {
+          "title": "Parametric template",
+          "value": "Parametric template",
+          "checked": false
+        },
+        {
+          "title": "Toolkit",
+          "value": "Toolkit",
+          "checked": false
+        }
+      ],
+      "filter": true,
+      "display": true
+    },
+    {
+      "key": "Number of people that can input",
+      "title": "N. of users",
+      "parent": "Context",
+      "type": "multi_select",
+      "active": false,
+      "values": [
+        {
+          "title": "1",
+          "value": "1",
+          "checked": false
+        },
+        {
+          "title": "<≃10",
+          "value": "<≃10",
+          "checked": false
+        },
+        {
+          "title": "<≃30",
+          "value": "<≃30",
+          "checked": false
+        },
+        {
+          "title": "<=100",
+          "value": "<=100",
+          "checked": false
+        },
+        {
+          "title": "<=1000",
+          "value": "<=1000",
+          "checked": false
+        }
+      ],
+      "filter": true,
+      "display": true
+    },
+    {
+      "key": "Input time frame",
+      "title": "Input time frame",
+      "parent": "Context",
+      "type": "multi_select",
+      "active": false,
+      "values": [
+        {
+          "title": "Minute(s)",
+          "value": "minute(s)",
+          "checked": false
+        },
+        {
+          "title": "Hour(s)",
+          "value": "Hour(s)",
+          "checked": false
+        },
+        {
+          "title": "Day(s)",
+          "value": "Day(s)",
+          "checked": false
+        },
+        {
+          "title": "Week(s)",
+          "value": "Week(s)",
+          "checked": false
+        },
+        {
+          "title": "Month(s)",
+          "value": "Month(s)",
+          "checked": false
+        },
+        {
+          "title": "Year(s)",
+          "value": "Year(s)",
+          "checked": false
+        },
+        {
+          "title": "No T.L.",
+          "value": "no time limit",
+          "checked": false
+        }
+      ],
+      "filter": true,
+      "display": true
+    },
+    {
+      "key": "Domain",
+      "title": "Domain",
+      "parent": "Context",
+      "type": "multi_select",
+      "active": false,
+      "values": [
+        {
+          "title": "(Self)-tracking",
+          "value": "(Self)-tracking",
+          "checked": false
+        },
+        {
+          "title": "Art",
+          "value": "Art",
+          "checked": false
+        },
+        {
+          "title": "Health",
+          "value": "Health",
+          "checked": false
+        },
+        {
+          "title": "Politics",
+          "value": "Politics",
+          "checked": false
+        },
+        {
+          "title": "Deliberation",
+          "value": "Deliberation",
+          "checked": false
+        },
+        {
+          "title": "Civic participation",
+          "value": "Civic participation",
+          "checked": false
+        },
+        {
+          "title": "Media",
+          "value": "Media",
+          "checked": false
+        },
+        {
+          "title": "Education",
+          "value": "Education",
+          "checked": false
+        },
+        {
+          "title": "Research",
+          "value": "Research",
+          "checked": false
+        },
+        {
+          "title": "Team collaboration",
+          "value": "Team collaboration",
+          "checked": false
+        },
+        {
+          "title": "Time management",
+          "value": "Time management",
+          "checked": false
+        },
+        {
+          "title": "Event management",
+          "value": "Event management",
+          "checked": false
+        },
+        {
+          "title": "Urban planning",
+          "value": "Urban planning",
+          "checked": false
+        },
+        {
+          "title": "History",
+          "value": "History",
+          "checked": false
+        }
+      ],
+      "filter": true,
+      "display": true
+    },
+    {
+      "key": "High Level Task",
+      "title": "High Level Task",
+      "parent": "Input",
+      "type": "multi_select",
+      "active": false,
+      "values": [
+        {
+          "title": "Collecting",
+          "value": "Collecting",
+          "checked": false
+        },
+        {
+          "title": "Planning",
+          "value": "Planning",
+          "checked": false
+        },
+        {
+          "title": "Organizing",
+          "value": "Organizing",
+          "checked": false
+        }
+      ],
+      "filter": true,
+      "display": true
+    },
+    {
+      "key": "Low level Tasks",
+      "title": "Low level Tasks",
+      "parent": "Input",
+      "type": "multi_select",
+      "active": false,
+      "values": [
+        {
+          "title": "Add",
+          "value": "add",
+          "checked": false
+        },
+        {
+          "title": "Modify",
+          "value": "modify",
+          "checked": false
+        },
+        {
+          "title": "Remove",
+          "value": "remove",
+          "checked": false
+        }
+      ],
+      "filter": true,
+      "display": true
+    },
+    {
+      "key": "Input interaction paradigm",
+      "title": "Paradigm",
+      "parent": "Input",
+      "type": "multi_select",
+      "active": false,
+      "values": [
+        {
+          "title": "Manipulating<br/>a token",
+          "value": "Manipulating a token",
+          "checked": false
+        },
+        {
+          "title": "Interacting<br/> with controls",
+          "value": "Interacting with controls",
+          "checked": false
+        },
+        {
+          "title": "Authoring<br/>Words",
+          "value": "Authoring Words",
+          "checked": false
+        },
+        {
+          "title": "Drawing<br/>a mark",
+          "value": "Making a trace/drawing a mark",
+          "checked": false
+        },
+        {
+          "title": "Forming<br/>Material",
+          "value": "Forming material",
+          "checked": false
+        }
+      ],
+      "filter": true,
+      "display": true
+    },
+    {
+      "key": "Activity - sync / async",
+      "title": "Sync / Async",
+      "parent": "Input",
+      "type": "multi_select",
+      "active": false,
+      "values": [
+        {
+          "title": "N/A",
+          "value": "",
+          "checked": false
+        },
+        {
+          "title": "Asynchronous",
+          "value": "Async",
+          "checked": false
+        },
+        {
+          "title": "Synchronous",
+          "value": "Sync",
+          "checked": false
+        }
+      ],
+      "filter": true,
+      "display": true
+    },
+    {
+      "key": "Activity - local / distant",
+      "title": "Local / Distant",
+      "parent": "Input",
+      "type": "multi_select",
+      "active": false,
+      "values": [
+        {
+          "title": "N/A",
+          "value": "",
+          "checked": false
+        },
+        {
+          "title": "Distributed",
+          "value": "Distributed",
+          "checked": false
+        },
+        {
+          "title": "Co-located",
+          "value": "Co-located",
+          "checked": false
+        }
+      ],
+      "filter": true,
+      "display": true
+    },
+    {
+      "key": "Existing Data Visible During Input",
+      "title": "Visible Data ",
+      "parent": "Input",
+      "type": "multi_select",
+      "active": false,
+      "values": [
+        {
+          "title": "No",
+          "value": "",
+          "checked": false
+        },
+        {
+          "title": "Yes",
+          "value": "",
+          "checked": false
+        }
+      ],
+      "filter": true,
+      "display": true
+    }
+  ]
+}

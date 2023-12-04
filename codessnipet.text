@@ -1,0 +1,4 @@
+var obj={names:[{id:17,user_id:9,code:"de",name:"Ich bin Hans",created_at:"2017-07-31 12:43:19",updated_at:"2017-07-31 12:43:19"},{id:18,user_id:9,code:"en",name:"My name is Hans",created_at:"2017-07-31 12:43:19",updated_at:"2017-07-31 12:43:19"}]};
+
+var result = obj.names.filter(function(e){return e.code == 'en'})
+console.log(result);
