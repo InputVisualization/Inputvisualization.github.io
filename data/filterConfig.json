@@ -750,7 +750,7 @@
     },
     {
       "key": "Existing Data Visible During Input",
-      "title": "Visible Data ",
+      "title": "Existing Data Visible During Input ",
       "parent": "Input",
       "type": "multi_select",
       "active": false,
