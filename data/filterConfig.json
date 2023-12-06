@@ -166,7 +166,7 @@
       "values": [
         {
           "title": "Spatial",
-          "value": "Spatial",
+          "value": "spatial",
           "checked": false
         },
         {
@@ -191,7 +191,7 @@
         },
         {
           "title": "Design <br/>Pattern",
-          "value": "design patterns",
+          "value": "design pattern",
           "checked": false
         },
         {
