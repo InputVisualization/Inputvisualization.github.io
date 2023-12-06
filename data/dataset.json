@@ -729,7 +729,7 @@
   {
     "n": 34 ,
     "id": "34. VisPoll" , 
-    "figure": "34VisPoll.png" , 
+    "figure": "VisPoll.png" , 
     "PhysVis": "Visualization" , 
     "Idiom": "custom idiom" , 
     "Input Data Semantics": ["subjective judgement","spatial"] , 
@@ -948,7 +948,7 @@
   } , 
   {
     "n": 44 ,
-    "id": "44. You id It" , 
+    "id": "44. You Name It" , 
     "figure": "activity-hang-sheet.jpg" , 
     "PhysVis": "Physicalization" , 
     "Idiom": ["matrix","dot plot"] , 
