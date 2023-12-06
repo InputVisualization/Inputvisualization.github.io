@@ -185,48 +185,23 @@
           "checked": false
         },
         {
-          "title": "Sub. judgement",
+          "title": "Subjective<br/> judgement",
           "value": "subjective judgement",
           "checked": false
         },
         {
-          "title": "Design Patterns",
+          "title": "Design <br/>Pattern",
           "value": "design patterns",
           "checked": false
         },
         {
-          "title": "Arguments.",
+          "title": "Arguments",
           "value": "arguments",
           "checked": false
         },
         {
-          "title": "Networks.",
-          "value": "networks",
-          "checked": false
-        },
-        {
-          "title": "Data about people",
-          "value": "data about people",
-          "checked": false
-        },
-        {
-          "title": "Children",
-          "value": "Children",
-          "checked": false
-        },
-        {
-          "title": "Family",
-          "value": "Family",
-          "checked": false
-        },
-        {
-          "title": "Other",
-          "value": "Other",
-          "checked": false
-        },
-        {
-          "title": "Unspec.",
-          "value": "Unspecified",
+          "title": "Data on<br/>people",
+          "value": "Data about people",
           "checked": false
         }
       ],
@@ -530,7 +505,7 @@
         },
         {
           "title": "Week(s)",
-          "value": "Week(s)",
+          "value": "week(s)",
           "checked": false
         },
         {
@@ -540,7 +515,7 @@
         },
         {
           "title": "Year(s)",
-          "value": "Year(s)",
+          "value": "year(s)",
           "checked": false
         },
         {
